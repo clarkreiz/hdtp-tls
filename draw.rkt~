@@ -23,7 +23,7 @@
 
 
 (define (draw-poly angle)
- 
+  
 (overlay
            (regular-polygon (* 0.1 angle) 5 "solid" (make-color  20 20 255))
            (regular-polygon (* 0.2 angle) 5 "solid" (make-color  30 30 255))
